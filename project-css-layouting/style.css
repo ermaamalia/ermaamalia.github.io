@@ -1,0 +1,88 @@
+*{
+  box-sizing: border-box;
+}
+
+html,body{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+    background-image: url("img/sample-pattern.png");
+    background-repeat: repeat;
+}
+
+header{
+	position: fixed;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+nav{
+	float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: right;
+    display: inline;
+}
+
+li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #eee;
+}
+
+#logo{
+padding: 5px;
+}
+
+#article-list{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+article{
+	border: 1px solid #eee;
+  	top: 50px;
+  	width: 60%;
+  	bottom: 200px;
+  	padding: 30px 10px;
+  	margin: auto;
+  	background-color: white;
+  	text-align: left;
+}
+h3{
+	color: blue;
+}
+
+footer {
+    padding: 5px;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    text-siz
+}
+
