@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Sign Up</title>
+</head>
+<body>
+<h1>Buat Account Baru!</h1>
+<form action="welcome.html" method="post" name="form-signup">
+  <h3>Sign Up Form</h3>
+    <p>
+      <label for="full-name">First name:</label><br>
+      <input id="full-name" name="fullName" type="text">
+    </p>
+    <p>
+      <label for="email">Last name:</label><br>
+      <input id="email" name="email" type="email">
+    </p>
+    <p>
+	<label for="gender">Gender:</label><br>
+  <input id="male-radio" type="radio" name="gender" value="male" checked="male">
+  <label for="male-radio">Male</label><br>
+  <input id="female-radio" type="radio" name="gender" value="female">
+  <label for="female-radio">Female</label><br>
+    <input id="other-radio" type="radio" name="gender" value="other">
+  <label for="other-radio">Other</label><br>
+    </p>
+  <p>
+	<label>Nationality:</label><br>
+	<select>
+		<option>Indonesian</option>
+		<option selected="Malaysian">Malaysian</option>
+		<option>Singapore</option>
+		<option>Australian</option>
+	</select>
+  </p>
+  <p>
+	<label>Language Spoken:</label><br>
+	<input id="male-radio" type="checkbox" name="gender" value="male">
+    <label for="male-radio">Bahasa Indonesia</label><br>
+    <input id="female-radio" type="checkbox" name="gender" value="female">
+    <label for="female-radio">English</label><br>
+    <input id="other-radio" type="checkbox" name="gender" value="other">
+    <label for="other-radio">Other</label><br>
+  </p>
+  <p>
+  <label>Bio:</label><br>
+  <textarea name="txtBio" cols="25" rows="8" id="txtBio"></textarea><br>
+  <input type="submit" value="Sign Up">
+  </p>
+  </form>
+</body>
+</html>
